@@ -1,0 +1,3 @@
+[submodule "encryption"]
+	path = encryption
+	url = https://gitlab.com/nyffels-it/premui-by-nyffels-it/encryption.git

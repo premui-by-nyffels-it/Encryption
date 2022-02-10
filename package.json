@@ -1,0 +1,54 @@
+{
+  "name": "@premui/encryption",
+  "version": "0.1.0",
+  "description": "This project is part of the PremUI library and contains all the functions, classes and services needed for the encruption module of premui.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "framework",
+    "typescript",
+    "nodejs",
+    "premui",
+    "premium",
+    "premium ui",
+    "language",
+    "translation"
+  ],
+  "author": {
+    "name": "Nyffels IT",
+    "email": "chesney@nyffels-it.be",
+    "url": "https://nyffels-it.be"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/encryption/-/issues"
+  },
+  "contributors": [
+    {
+      "email": "chesney@nyffels.be",
+      "name": "Chesney Nyffels",
+      "url": "https://nyffels.be"
+    }
+  ],
+  "repository": {
+    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/encryption",
+    "type": "GIT"
+  },
+  "private": false,
+  "homepage": "https://premui.be",
+  "devDependencies": {
+    "typescript": "4.5.5"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/crypto-js": "4.1.0",
+    "bcryptjs": "2.4.3",
+    "crypto-js": "4.1.1"
+  }
+}
